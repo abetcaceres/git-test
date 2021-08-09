@@ -1,0 +1,17 @@
+# Ignora el archivo en todas las carpetas que existan
+#   development.log
+
+#Ignora solo el archivo que está en la raíz del proyecto
+#   /development.log
+
+#Ignora solo el que está dentro de la carpeta
+#   mi-carpeta/development.log
+
+# Cuando el archivo o carpeta empiece con / quiere decir que ignorará
+# solo aquellos que se encuentren en la raíz
+# pero si no tiene / ignorará a todos aquellos que se llamen igual
+# dentro de todo el proyecto sin importar si están en sub carpetas.
+
+
+# Esto es un comentario
+*.log
